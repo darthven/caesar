@@ -1,0 +1,22 @@
+{
+  "name": "capturer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Mouse",
+    "and",
+    "keyboard",
+    "capturer"
+  ],
+  "author": "darthvenus",
+  "license": "ISC",
+  "dependencies": {
+    "iohook": "^0.6.1",
+    "robotjs": "^0.5.1",
+    "ws": "^7.1.1"
+  }
+}
