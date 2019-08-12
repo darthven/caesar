@@ -1,7 +1,7 @@
 const ioHook = require('iohook')
 const WebSocket = require('ws')
 
-const ws = new WebSocket('ws://192.168.1.78:3000')
+const ws = new WebSocket('ws://localhost:3000')
 
 ws.on('open', () => {
     ioHook.on('mousemove', event => {
